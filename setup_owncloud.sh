@@ -123,7 +123,7 @@ patch_apache_filesize () {
 	#Patch filesize in the htaccess (More Information: http://blog.webernetz.net/2015/07/15/yet-another-owncloud-installation-guide/)
 	sed -i "s/php_value upload_max_filesize .*/php_value upload_max_filesize $maxFileSize/" /var/www/owncloud/.htaccess
 	sed -i "s/php_value post_max_size .*/php_value post_max_size $maxFileSize/" /var/www/owncloud/.htaccess
-	sed -i "s/php_value memoy_limit .*/php_value memoy_limit $maxFileSize/" /var/www/owncloud/.htaccess
+	sed -i "s/php_value memory_limit .*/php_value memory_limit $maxFileSize/" /var/www/owncloud/.htaccess
 	
 	/etc/init.d/apache2 restart
 }
