@@ -1,2 +1,2 @@
 # Owncloud-Auto-Setup-for-Raspberry-Pi-2
-A script to install owncloud automatic on a raspbian in version 8 alias jessie with some additional features
+More information is available at my blog under http://wiesing.net/index.php/2015/08/18/installation-von-owncloud-auf-raspberry-2-automatisieren/ (only in german).
